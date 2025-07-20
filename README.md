@@ -23,23 +23,26 @@ In modern VLSI systems, minimizing CPU involvement in memory operations is cruci
 
 ## 📁 Project Structure
 
+```
 MASTER_DMA_CONTROLLER_VERILOG/
 ├── src/
-│ ├── master_dma.v # Main DMA controller module
-│ └── sync_fifo.v # Synchronous FIFO buffer
+│   ├── master_dma.v              # Main DMA controller module
+│   └── sync_fifo.v               # Synchronous FIFO buffer
 │
 ├── tb/
-│ └── slave_test_bench.v # AXI-Lite slave memory + DMA test logic
+│   └── slave_test_bench.v        # AXI-Lite slave memory + DMA test logic
 │
 ├── sim/
-│ ├── simulation_result.wcfg # Vivado waveform config
-│ └── test_behav.wdb # Simulation database
+│   ├── simulation_result.wcfg    # Vivado waveform config
+│   └── test_behav.wdb            # Simulation database
 │
 ├── doc/
-│ ├── Problem_Statement.pdf # Official problem statement (PS1)
-│ └── Waveform.png # Screenshot of simulation results
+│   ├── Problem_Statement.pdf     # Official problem statement (PS1)
+│   └── Waveform.png              # Screenshot of simulation results
 │
-└── VERILOG_MASTER_DMA_CONTROLLER.xpr # Vivado project file
+└── VERILOG_MASTER_DMA_CONTROLLER.xpr  # Vivado project file
+```
+
 
 
 ## 🛠️ How to Simulate (Vivado)
